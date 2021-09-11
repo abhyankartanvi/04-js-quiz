@@ -1,0 +1,47 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  line-height: 2em;
+  background-color: antiquewhite;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2em;
+}
+
+.introduction {
+  text-align: center;
+}
+
+.introduction > h1 {
+  font-size: 3em;
+  padding-bottom: 1em;
+}
+
+.introduction > p {
+  font-size: 1.25em;
+  padding-bottom: 2em;
+}
+
+.section-style {
+  text-align: center;
+}
+
+hr {
+  background-color: aqua;
+  height: 0.75em;
+  margin-top: 2em;
+}
+
+#questions,
+#result,
+#final,
+#your-scores {
+  display: none;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Quiz</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <!-- view highscores button on the left-->
+    <header>
+      <button id="view-scores">View Highscores</button>
+      <!-- end of highscores button -->
+      <!-- timer of the right -->
+      <p class="time">Timer: 75seconds</p>
+      <!-- end of timer -->
+    </header>
+    <!-- container section -->
+    <section class="introduction">
+      <h1>Test Your Javascript Knowledge</h1>
+      <p>
+        Test your javascript knowledge by answering the following questions.
+        Please note, if you get a question wrong, 10seconds will be deducted
+        from your time. <strong>GOOD LUCK!!</strong>
+      </p>
+      <button id="button" class="button-styling">START</button>
+    </section>
+
+    <!-- questions to be displayed after start button is clicked (set display in CSS) -->
+    <section id="questions" class="section-style">
+      <h2 id="question">for the question</h2>
+      <ul>
+        <li><button id="answer1" class="answer-button">Answer 1</button></li>
+        <li><button id="answer2" class="answer-button">Answer 2</button></li>
+        <li><button id="answer3" class="answer-button">Answer 3</button></li>
+        <li><button id="answer4" class="answer-button">Answer 4</button></li>
+      </ul>
+
+      <!-- horizontal line -->
+      <!-- result (right/wrong) will be displayed below -->
+      <div id="result"><hr /></div>
+    </section>
+
+    <!-- section for final score and enter initials -->
+    <section id="final">
+      <h3>That's a wrap!</h3>
+      <p>Your Score: <span id="score">0</span></p>
+      <label for="initials">Enter your initials</label>
+      <input type="text" name="" id="initials" />
+      <input type="submit" value="SUBMIT" />
+    </section>
+
+    <!-- section that displays all your scores  -->
+    <section id="your-scores">
+      <h3>Your Scores</h2>
+      <ul id="score-list">
+        <!-- <li></li> -->
+      </ul>
+      <button>GO BACK</button>
+      
+
+    </section>
+     <script src="/script.js"></script>
+  </body>
+</html>
